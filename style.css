@@ -1,0 +1,91 @@
+.container {display: grid;
+    grid-template-columns: 15% 35% 10% 20% 20%;
+    grid-template-rows: 70px 210px 210px 80px 500px;
+    background-color: #0a5c36;
+    
+}
+
+/*div {border: 2px solid black;}*/
+
+#box1 {
+        grid-column: span 5;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400pt;
+         font-style: normal;
+        font-size: 3em;
+        color:rgb(218, 210, 3);
+        }
+
+#box2 {
+        font-size: 2em;
+        padding-top: 10px;
+        color: white}
+
+#box2 img {padding-top: 40px;
+           padding-left: 10px;}
+
+#box2, #box3, #box5, #box8, #box6 {font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500px;
+         font-style: normal;
+        color: rgb(9, 0, 0);
+        }
+
+#box5 {grid-row: span 4;
+        
+    }
+
+#box6 {grid-row:  span 4;}
+
+#box5 img {width: 50px;
+        height: 80px;}
+
+#box6 img {width: 50px;
+            height: 80px;
+}
+
+#box7 {padding-top: 90px;}
+
+
+
+
+
+#box11 {grid-column: span 2;
+        grid-row: span 3;
+        padding-top: 15px;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+        color: white;}
+
+#box3 img {width: 80px;
+    height: 110px;}
+
+#box8 img {width: 80px;
+        height: 110px;}
+
+.cards {
+        display:flex;
+}
+
+/* Button class inspired from other pages */
+.btn {
+        margin: 0;
+        position: absolute;
+        top: 80%;
+        left: 2%;
+        color: white;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        font-family: Arial, sans-serif;
+}
+
+/* This will remove all underlines from all links */
+a {text-decoration: none; }
+
