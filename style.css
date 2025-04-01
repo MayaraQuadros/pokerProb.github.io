@@ -48,6 +48,8 @@
 
 #box7 {padding-top: 90px;}
 
+#box12 {grid-row: span 2;}
+
 
 
 
@@ -84,7 +86,8 @@
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 1);
         font-family: Arial, sans-serif;
-        margin-top: 100px;
+        margin-top: 70px;
+        
 }
 
 /* This will remove all underlines from all links */
