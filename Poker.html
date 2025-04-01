@@ -232,7 +232,7 @@
         
         function checkProbability3Kind()
         {
-            let probab3kind = checkProbab3Kind(arrayRepetition, allCards);
+            let probab3kind = checkProbab3Kind(arrayRepetition);
             
         }
 
@@ -271,12 +271,12 @@
 
             
 
-        function checkProbab3Kind(arrayRep, arrayCards) // checks probability of 3 of a kind
+        function checkProbab3Kind(arrayRep) // checks probability of 3 of a kind
         {
             let repNumber = highestNumber(arrayRep);
-            let repetition = countRepetitions(arrayRep);
+            //let repetition = countRepetitions(arrayRep);
 
-            //document.getElementById("head2").innerHTML = repetition.join(", "); GET THIS ON TO THEST
+            //document.getElementById("head2").innerHTML = "Repetition: " + repetition.join(", "); GET THIS ON TO THEST
             //document.getElementById("probability").innerHTML = "highest: " + repNumber;  GET THIS ON TO THEST
 
             if(is2repeated(arrayRep)) // probability 3 of a kind having 2 pairs
@@ -289,7 +289,7 @@
                 {
                     document.getElementById("message").innerHTML = "You have 2 pairs.<br>Helpfull cards for a 3 of a kind are: 7/" + numberOutcomes + " (" + Number(probability.toFixed(2)) + "%)";
                 }
-                else
+                else if(roundGame == 6)
                 {
                     probability = 4/numberOutcomes * 100;
                     document.getElementById("message").innerHTML = "You have 2 pairs.<br>Helpfull cards for a 3 of a kind are: 4/"+ numberOutcomes + " (" + Number(probability.toFixed(2)) + "%)";
