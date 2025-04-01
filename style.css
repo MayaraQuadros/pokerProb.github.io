@@ -5,7 +5,7 @@
     
 }
 
-div {border: 2px solid black;}
+/*div {border: 2px solid black;}*/
 
 #box1 {
         grid-column: span 5;
